@@ -1,3 +1,3 @@
 # ismithin.github.io
 
-This repository is specificly for my 1st Web Dev Project.
+This repository will be designed to act as a personal landing page and project portfolio.
