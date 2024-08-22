@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Landing Page</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .hero {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            height: 100vh; /* Takes the full height of the viewport */
+        }
+        .hero img {
+            width: 35%; /* Adjust as needed */
+            border-radius: 10px;
+        }
+        .bio {
+            max-width: 50%;
+        }
+        .section {
+            padding: 50px;
+        }
+        .timeline, .skills {
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #00FF00;
+        }
+    </style>
 </head>
 <body>
-    <h1>My First Web Page</h1>
-    <p>My first paragraph.</p>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="your-image.jpg" alt="Your Image">
+        <div class="bio">
+            <h1>Your Name</h1>
+            <p>Brief bio text goes here. You can include a short introduction about yourself, your passions, and what you do.</p>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="section timeline">
+        <h2>History</h2>
+        <ul>
+            <li>2023 - Present: Your Job Title at Company</li>
+            <li>2020 - 2023: Previous Job Title at Another Company</li>
+            <!-- Add more as needed -->
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1: Description</li>
+            <li>Skill 2: Description</li>
+            <!-- Add more as needed -->
+        </ul>
+    </section>
+
 </body>
 </html>
